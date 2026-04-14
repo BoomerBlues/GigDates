@@ -53,10 +53,15 @@
 
   animation: bounce 1.5s infinite;
 }
+
     footer {
       margin-top: 40px;
       font-size: 12px;
     }
+  @keyframes bounce {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, 12px); }
+}
   </style>
 </head>
  <body style="margin:0;">
